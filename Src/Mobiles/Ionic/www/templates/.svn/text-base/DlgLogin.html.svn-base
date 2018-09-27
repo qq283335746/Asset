@@ -1,0 +1,24 @@
+﻿<ion-modal-view>
+  <ion-header-bar class="bar-positive">
+    <h1 class="title">登录</h1>
+  </ion-header-bar>
+  <ion-content>
+      <form ng-submit="doLogin()" class="login">
+          <div class="row">
+              <div class="col col-25">用户名：</div>
+              <div class="col col-75">
+                  <input type="text" ng-model="LoginData.UserName">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col col-25">密  码：</div>
+              <div class="col col-75">
+                  <input type="password" ng-model="LoginData.Password">
+              </div>
+          </div>
+          <div class="padding mgt10">
+              <button class="button button-block button-positive" type="submit">登 录</button>
+          </div>
+      </form>
+  </ion-content>
+</ion-modal-view>

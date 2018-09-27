@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android
+END
+ContentFilesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/ContentFilesystem.java
+END
+DirectoryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/DirectoryManager.java
+END
+LocalFilesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/LocalFilesystem.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/FileUtils.java
+END
+build-extras.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/build-extras.gradle
+END
+LocalFilesystemURL.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/LocalFilesystemURL.java
+END
+AssetFilesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/AssetFilesystem.java
+END
+Filesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/Filesystem.java
+END
+EncodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/EncodingException.java
+END
+TypeMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/TypeMismatchException.java
+END
+PermissionHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/PermissionHelper.java
+END
+NoModificationAllowedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/NoModificationAllowedException.java
+END
+InvalidModificationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/InvalidModificationException.java
+END
+FileExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1903/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/cordova-plugin-file/src/android/FileExistsException.java
+END

@@ -1,0 +1,13 @@
+﻿<ion-modal-view>
+    <ion-content overflow-scroll="false">
+        <img ng-src="{{dataModel.PictureUrl}}" style="width:100%;height:100%;" />
+    </ion-content>
+    <ion-footer-bar class="footer">
+        <div class="col-50">
+            <button class="button button-block button-stable" ng-click="onTakePicture(0)">重拍</button>
+        </div>
+        <div class="col-50">
+            <button class="button button-block button-stable" ng-click="onFinishPicture()">完成</button>
+        </div>
+    </ion-footer-bar>
+</ion-modal-view>

@@ -1,0 +1,30 @@
+﻿<ion-header-bar class="bar-positive">
+    <div class="buttons">
+        <a class="button button-clear" ng-click="closeThisDialog(0)">取消</a>
+    </div>
+    <h1 class="title">选择组织机构</h1>
+</ion-header-bar>
+<ion-scroll scrollbar-y="false" style="height:{{WinH-60}}px">
+    <div style="margin-top:40px;"></div>
+    <div ng-repeat="category in Categories">
+        <div class="row" ng-click="toggleGroup(category)" ng-class="{active: isGroupShown(category)}">
+            <div class="col">
+                <i class="icon" ng-class="!isGroupShown(category) ? 'ion-minus' : 'ion-plus'"></i>
+                {{category.text}}
+            </div>
+        </div>
+        <div class="row item-accordion" ng-repeat="item in category.children" ng-hide="isGroupShown(category)">
+            <div class="col pdl20">
+                <i class="icon" ng-class="isGroupShown(item) ? 'ion-minus' : 'ion-plus'" ng-click="toggleGroup(item)"></i>
+                <span ng-click="onDlgSelect(item)">{{item.text}}</span> 
+                <div class="row item-accordion" ng-repeat="item2 in item.children" ng-show="isGroupShown(item)" ng-click="onDlgSelect(item2)">
+                    <div class="col pdl10">
+                        <span ng-click="onDlgSelect(item2)">{{item2.text}}</span> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</ion-scroll>
+

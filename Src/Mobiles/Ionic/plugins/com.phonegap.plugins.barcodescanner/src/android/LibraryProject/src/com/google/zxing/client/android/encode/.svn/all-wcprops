@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode
+END
+Formatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/Formatter.java
+END
+MECARDContactEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/MECARDContactEncoder.java
+END
+EncodeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/EncodeActivity.java
+END
+ContactEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/ContactEncoder.java
+END
+VCardContactEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/VCardContactEncoder.java
+END
+QRCodeEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/QRCodeEncoder.java
+END

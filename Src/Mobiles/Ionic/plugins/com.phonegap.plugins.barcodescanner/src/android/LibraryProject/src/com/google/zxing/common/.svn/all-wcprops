@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common
+END
+BitSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/BitSource.java
+END
+BitMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/BitMatrix.java
+END
+DecoderResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 245
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/DecoderResult.java
+END
+GlobalHistogramBinarizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/GlobalHistogramBinarizer.java
+END
+PerspectiveTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/PerspectiveTransform.java
+END
+HybridBinarizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/HybridBinarizer.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/StringUtils.java
+END
+DetectorResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/DetectorResult.java
+END
+CharacterSetECI.java
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/CharacterSetECI.java
+END
+GridSampler.java
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/GridSampler.java
+END
+BitArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/BitArray.java
+END
+DefaultGridSampler.java
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/DefaultGridSampler.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder
+END
+PDF417Writer.java
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417Writer.java
+END
+BarcodeMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/BarcodeMatrix.java
+END
+PDF417.java
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417.java
+END
+BarcodeRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/BarcodeRow.java
+END
+PDF417ErrorCorrection.java
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417ErrorCorrection.java
+END
+Dimensions.java
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/Dimensions.java
+END
+Compaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/Compaction.java
+END
+PDF417HighLevelEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417HighLevelEncoder.java
+END

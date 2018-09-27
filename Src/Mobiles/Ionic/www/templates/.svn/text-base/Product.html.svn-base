@@ -1,0 +1,59 @@
+﻿<ion-view view-title="资产查询" hide-back-button="true">
+    <ion-nav-buttons side="right">
+        <button class="button" ng-click="onScan()">扫描</button>
+    </ion-nav-buttons>
+
+    <ion-nav-title>
+        <ion-header-bar class="item-input-inset">
+            <span class="item-input-wrapper" style="height:30px;">
+                <i class="icon ion-ios-search placeholder-icon" ng-click="onSearch()"></i>
+                <input type="search" placeholder="资产名称/编码" ng-model="DataModel.Keyword" />
+            </span>
+            <!--<a class="button ion-button">
+                <i class="icon ion-ios-search placeholder-icon" ng-click="onSearch()"></i>
+                查询
+            </a>-->
+            <!--<button class="button button-clear" type="submit">
+                查询
+            </button>-->
+        </ion-header-bar>
+    </ion-nav-title>
+
+    <ion-content>
+        <div class="dg-list" ng-hide="!Products || Products.length==0">
+            <div class="box" ng-repeat="item in Products">
+                <div class="row" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">
+                    <div class="col">{{$index + 1}}-资产名称：{{item.Named}}</div>
+                    <div class="col">
+                        资产编码：{{item.Coded}}
+                    </div>
+                </div>
+                <div class="subbox" ng-show="isGroupShown(item)">
+                    <div class="row">
+                        <div class="col">规格型号：{{item.SpecModel}}</div>
+                        <div class="col">计量单位：{{item.MeterUnit}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">使用部门：{{item.UseOrgName}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">管理部门：{{item.MgrOrgName}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">存放地点：{{item.StoragePlaceName}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">使用人：{{item.UsePersonName}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dg-list" ng-show="!Products || Products.length==0">
+            <div class="box">
+                <div class="row">
+                    <div class="col">暂无数据</div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

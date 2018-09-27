@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android
+END
+HelpActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/HelpActivity.java
+END
+BeepManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/BeepManager.java
+END
+DecodeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/DecodeThread.java
+END
+PreferencesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 259
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/PreferencesActivity.java
+END
+CaptureActivityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/CaptureActivityHandler.java
+END
+HttpHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/HttpHelper.java
+END
+CaptureActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/CaptureActivity.java
+END
+DecodeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/DecodeHandler.java
+END
+IntentSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/IntentSource.java
+END
+InactivityTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/InactivityTimer.java
+END
+Intents.java
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/Intents.java
+END
+FinishListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 254
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/FinishListener.java
+END
+DecodeFormatManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 259
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/DecodeFormatManager.java
+END
+ViewfinderResultPointCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 269
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/ViewfinderResultPointCallback.java
+END
+LocaleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/LocaleManager.java
+END
+Contents.java
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/Contents.java
+END
+ViewfinderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 254
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/ViewfinderView.java
+END

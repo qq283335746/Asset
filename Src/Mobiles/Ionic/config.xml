@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget id="com.sw.asset" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" defaultlocale="zh-CN">
+  <name>智能资产管理</name>
+  <description>
+         智能资产移动端。技术支持：qq283335746
+    </description>
+  <author email="you@example.com" href="http://example.com.com/">
+      天涯孤岸
+    </author>
+  <content src="index.html" />
+  <access origin="*" />
+  <preference name="webviewbounce" value="false" />
+  <preference name="UIWebViewBounce" value="false" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="android-minSdkVersion" value="16" />
+  <preference name="BackupWebStorage" value="none" />
+  <preference name="KeepRunning" value="True" />
+  <preference name="ShowTitle" value="True" />
+  <preference name="InAppBrowserStorageEnabled" value="True" />
+  <preference name="SuppressesIncrementalRendering" value="True" />
+  <preference name="windows-target-version" value="10.0" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="SplashShowOnlyFirstTime" value="True" />
+  <preference name="SplashScreenDelay" value="5000" />
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar" />
+  </feature>
+  <icon src="resources/icon.png" />
+  <platform name="android">
+    <splash src="resources/splash.png" />
+  </platform>
+  <preference name="KeepRunning" value="True" />
+  <preference name="ShowTitle" value="True" />
+  <preference name="InAppBrowserStorageEnabled" value="True" />
+  <preference name="SuppressesIncrementalRendering" value="True" />
+  <preference name="windows-target-version" value="10.0" />
+  <preference name="android-build-tool" value="gradle" />
+  <plugin name="cordova-plugin-device" spec="~1.1.1" />
+  <plugin name="cordova-plugin-console" spec="~1.0.2" />
+  <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
+  <plugin name="cordova-plugin-statusbar" spec="~2.1.0" />
+  <plugin name="ionic-plugin-keyboard" spec="~1.0.8" />
+  <plugin name="cordova-plugin-x-toast" version="2.5.2" src="D:\VSWorkspace\ApacheCordova\Ionic\100009\TygaSoft\Asset\plugins\cordova-plugin-x-toast" />
+  <plugin name="cordova-plugin-network-information" version="1.2.1" />
+  <plugin name="cordova-plugin-camera" version="2.1.1" />
+  <plugin name="cordova-plugin-file" version="4.1.1" />
+  <plugin name="cordova-plugin-file-transfer" version="1.5.1" />
+  <plugin name="cordova-plugin-media" version="2.1.0" />
+  <plugin name="com.phonegap.plugins.barcodescanner" version="1.2.0" src="https://github.com/phonegap-build/BarcodeScanner.git" />
+</widget>

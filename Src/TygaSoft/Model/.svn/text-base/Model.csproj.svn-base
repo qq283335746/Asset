@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E27DA67-2EFF-46E7-9513-836B4C1180F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TygaSoft.Model</RootNamespace>
+    <AssemblyName>TygaSoft.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCode\ApplicationsInfo.cs" />
+    <Compile Include="AutoCode\BarcodeTemplateInfo.cs" />
+    <Compile Include="AutoCode\CategoryInfo.cs" />
+    <Compile Include="AutoCode\ContentTypeInfo.cs" />
+    <Compile Include="AutoCode\DicsInfo.cs" />
+    <Compile Include="AutoCode\CustomerInfo.cs" />
+    <Compile Include="AutoCode\FeatureUserInfo.cs" />
+    <Compile Include="AutoCode\OrgDepmtInfo.cs" />
+    <Compile Include="AutoCode\PandianAssetInfo.cs" />
+    <Compile Include="AutoCode\PandianInfo.cs" />
+    <Compile Include="AutoCode\ProductInfo.cs" />
+    <Compile Include="AutoCode\ProductRepairInfo.cs" />
+    <Compile Include="AutoCode\SiteMembersInfo.cs" />
+    <Compile Include="AutoCode\SiteMenusAccessInfo.cs" />
+    <Compile Include="AutoCode\SiteMenusInfo.cs" />
+    <Compile Include="AutoCode\SiteMultiInfo.cs" />
+    <Compile Include="AutoCode\SitePictureInfo.cs" />
+    <Compile Include="AutoCode\SiteRolesInfo.cs" />
+    <Compile Include="AutoCode\SiteUsersInfo.cs" />
+    <Compile Include="AutoCode\StaffInfo.cs" />
+    <Compile Include="AutoCode\StoragePlaceInfo.cs" />
+    <Compile Include="AutoCode\UserInOrgInfo.cs" />
+    <Compile Include="AutoCode\UsersInRolesInfo.cs" />
+    <Compile Include="ComboboxInfo.cs" />
+    <Compile Include="CustomerInfo.cs" />
+    <Compile Include="DataGrid.cs" />
+    <Compile Include="FeatureUserInfo.cs" />
+    <Compile Include="KeyValueInfo.cs" />
+    <Compile Include="LoginInfo.cs" />
+    <Compile Include="PandianAssetInfo.cs" />
+    <Compile Include="PandianInfo.cs" />
+    <Compile Include="HtmlToPdfInfo.cs" />
+    <Compile Include="ProductInfo.cs" />
+    <Compile Include="ProductRepairExtendInfo.cs" />
+    <Compile Include="ProductRepairInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunQueueInfo.cs" />
+    <Compile Include="SiteMenusAccessItemInfo.cs" />
+    <Compile Include="SiteMenusInfo.cs" />
+    <Compile Include="SiteMultiInfo.cs" />
+    <Compile Include="SiteUsersInfo.cs" />
+    <Compile Include="StaffInfo.cs" />
+    <Compile Include="UserProfileInfo.cs" />
+    <Compile Include="UserRoleInfo.cs" />
+    <Compile Include="UserRule.cs" />
+    <Compile Include="UserRuleAnalyseInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

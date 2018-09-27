@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder
+END
+DecodedBitStreamParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/DecodedBitStreamParser.java
+END
+BitMatrixParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/BitMatrixParser.java
+END
+DataBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/DataBlock.java
+END
+Mode.java
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/Mode.java
+END
+DataMask.java
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/DataMask.java
+END
+Decoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/Decoder.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/Version.java
+END
+ErrorCorrectionLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/ErrorCorrectionLevel.java
+END
+FormatInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1911/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/FormatInformation.java
+END

@@ -1,0 +1,132 @@
+10
+
+dir
+2017
+http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/VSWorkspace/ApacheCordova/Ionic/100009/TygaSoft/Asset/plugins
+http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6
+
+
+
+2017-11-01T15:40:27.168206Z
+1911
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eeecd8e6-aa2a-e146-8018-c4464320432e
+
+cordova-plugin-camera
+dir
+
+cordova-plugin-statusbar
+dir
+
+fetch.json
+file
+
+
+
+
+2018-09-27T06:04:59.453125Z
+64eec443464eb73cfb2c536df7f271f4
+2017-11-01T15:40:27.168206Z
+1911
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2570
+
+cordova-plugin-network-information
+dir
+
+cordova-plugin-whitelist
+dir
+
+com.phonegap.plugins.barcodescanner
+dir
+
+cordova-plugin-device
+dir
+
+cordova-plugin-file
+dir
+
+cordova-plugin-media
+dir
+
+cordova-plugin-x-toast
+dir
+
+cordova-plugin-file-transfer
+dir
+
+android.json
+file
+
+
+
+
+2018-09-27T05:59:04.875000Z
+aa4c49d7d71617c45292a7d5a400a5fd
+2017-11-01T15:40:27.168206Z
+1911
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1301
+
+cordova-plugin-console
+dir
+
+ionic-plugin-keyboard
+dir
+

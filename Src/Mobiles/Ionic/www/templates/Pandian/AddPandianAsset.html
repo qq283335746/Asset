@@ -1,0 +1,110 @@
+﻿<ion-modal-view>
+    <ion-header-bar class="bar-positive">
+        <div class="buttons">
+            <button class="button" ng-click="onBack()">取消</button>
+        </div>
+        <h1 class="title">{{PandianAssetInfo.Barcode}}</h1>
+        <div class="buttons">
+            <a class="button button-icon icon ion-ios-eye-outline" ng-hide="true" ng-click="onShowCameraPicture()"></a>
+            <a class="button button-icon icon ion-ios-camera-outline" ng-hide="true" ng-click="onToggleCamera()"></a>
+        </div>
+    </ion-header-bar>
+    <ion-content class="bg-1">
+        <div class="row info-row mgb5">
+            <div class="col">
+                <div class="fl"><span class="f-cb span"><span class="f-cr" ng-show="IsPanying">*</span>资产名称：</span></div>
+                <div class="fl">
+                    <input type="text" ng-model="PandianAssetInfo.AssetName" placeholder="请输入资产名称" class="txt" ng-show="IsPanying" />
+                    <span ng-model="PandianAssetInfo.AssetName" ng-bind="PandianAssetInfo.AssetName" ng-hide="IsPanying"></span>
+                </div>
+                <div class="fr">
+                    <span ng-class="IsPanying ? 'f-cr' : 'f-cblue'">{{PandianAssetInfo.StatusName}}</span>
+                </div>
+                <span class="clr"></span>
+            </div>
+        </div>
+        <div class="row info-row">
+            <div class="col">
+                <div class="fl"><span class="f-cb span">规格型号：</span></div>
+                <div class="fl">
+                    <input type="text" ng-model="PandianAssetInfo.SpecModel" placeholder="请输入规格型号" class="txt" ng-show="IsPanying" style="width:100px !important;"  />
+                    <span ng-model="PandianAssetInfo.SpecModel" ng-bind="PandianAssetInfo.SpecModel" ng-hide="IsPanying"></span>
+                </div>
+                <div class="fr">
+                    <div class="fl f-r"><span class="span">计量单位：</span></div>
+                    <div class="fl">
+                        <input type="text" ng-model="PandianAssetInfo.Unit" class="txt" ng-show="IsPanying" style="width:50px !important;" />
+                        <span ng-model="PandianAssetInfo.Unit" ng-bind="PandianAssetInfo.Unit" ng-hide="IsPanying"></span>
+                    </div>
+                </div>
+                <span class="clr"></span>
+            </div>
+        </div>
+        <div class="txt-center f-cdark pd5" ng-show="IsExistRow">旧数据</div>
+        <div class="bg-box" ng-show="IsExistRow">
+            <div class="row">
+                <div class="col-25">使用部门：</div>
+                <div class="col-75">{{PandianAssetInfo.UseDepmtName}}</div>
+            </div>
+            <div class="row">
+                <div class="col-25">管理部门：</div>
+                <div class="col-75">{{PandianAssetInfo.MgrDepmtName}}</div>
+            </div>
+            <div class="row info-row">
+                <div class="col-25">存放地点：</div>
+                <div class="col-75">{{PandianAssetInfo.StoragePlaceName}}</div>
+            </div>
+            <div class="row info-row">
+                <div class="col-25">使用人：</div>
+                <div class="col-75">{{PandianAssetInfo.UsePersonName}}</div>
+            </div>
+        </div>
+        <div class="txt-center f-cb pd5">新数据</div>
+        <div ng-class="IsPanying ? 'bg-box':'bg-box pdt10'">
+            <div class="row" ng-show="IsPanying">
+                <div class="col col-33"><span class="fcr" ng-show="IsPanying">*</span>资产类别：</div>
+                <div class="col col-67">
+                    <a ng-click="onDlgModal('Category')" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{PandianAssetInfo.LastCategoryName}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33"><span class="fcr" ng-show="IsPanying">*</span>使用部门：</div>
+                <div class="col col-67">
+                    <a ng-click="onDlgModal('UseDepmt')" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{PandianAssetInfo.LastUseDepmtName}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33"><span class="fcr" ng-show="IsPanying">*</span>管理部门：</div>
+                <div class="col col-67">
+                    <a ng-click="onDlgModal('MgrDepmt')" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{PandianAssetInfo.LastMgrDepmtName}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33"><span class="fcr" ng-show="IsPanying">*</span>存放地点：</div>
+                <div class="col col-67">
+                    <a ng-click="onDlgModal('StoragePlace')" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{PandianAssetInfo.LastStoragePlaceName}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33"><span class="span pdl10">使用人：</span></div>
+                <div class="col col-67">
+                    <input type="text" ng-model="PandianAssetInfo.LastUsePersonName" placeholder="请输入使用人" />
+                </div>
+            </div>
+        </div>
+        <div class="mgt10">
+            <input type="text" ng-model="PandianAssetInfo.Remark" placeholder="请输入盘点备注信息" class="remark" />
+        </div>
+    </ion-content>
+    <ion-footer-bar class="bg-2 footer">
+        <button class="button button-block button-positive" ng-click="onSave()">确定</button>
+    </ion-footer-bar>
+</ion-modal-view>

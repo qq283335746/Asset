@@ -1,0 +1,15 @@
+﻿<ion-header-bar class="bar-positive">
+    <div class="buttons">
+        <a class="button button-clear" ng-click="closeThisDialog(0)">取消</a>
+    </div>
+    <h1 class="title">选择存放地点</h1>
+</ion-header-bar>
+<ion-scroll scrollbar-y="false" style="height:{{WinH-60}}px">
+    <div style="margin-top:40px;"></div>
+    <div class="row" ng-repeat="item in StoragePlaces" ng-click="onDlgSelect(item)">
+        <div class="col">
+            {{item.Named}}
+        </div>
+    </div>
+</ion-scroll>
+
