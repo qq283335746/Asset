@@ -1,0 +1,5 @@
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskWS\bin\Debug\TygaSoft.TaskWS.exe
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskWS\bin\Debug\TygaSoft.TaskWS.pdb
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskWS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskWS\obj\x86\Debug\TygaSoft.TaskWS.exe
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskWS\obj\x86\Debug\TygaSoft.TaskWS.pdb

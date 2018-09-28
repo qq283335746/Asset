@@ -1,7 +1,7 @@
 10
 
 dir
-2017
+2019
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/%E5%B9%BF%E5%B7%9E%E7%9F%BD%E4%BA%91%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/%E6%B7%B1%E5%9C%B3%E7%94%B5%E4%BF%A1%E6%80%BB%E5%B7%A5%E4%BC%9A%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/trunk/Codes/TygaSoft/Web/Manages/Members
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6
 
@@ -25,40 +25,6 @@ http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%
 
 
 eeecd8e6-aa2a-e146-8018-c4464320432e
-
-AddUserRole.aspx
-file
-
-
-
-
-2018-09-27T05:51:18.609375Z
-9f5e4f255cddac65aaa8de5f6b488f5f
-2017-10-16T15:37:54.860712Z
-1868
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1568
 
 AddRoleUser.aspx
 file
@@ -94,14 +60,14 @@ file
 
 4806
 
-UpdatePsw.aspx
+AddUserRole.aspx
 file
 
 
 
 
-2018-09-27T05:51:18.687500Z
-cb0e74720be694004b64b1135deb290f
+2018-09-27T05:51:18.609375Z
+9f5e4f255cddac65aaa8de5f6b488f5f
 2017-10-16T15:37:54.860712Z
 1868
 283335746
@@ -126,41 +92,7 @@ cb0e74720be694004b64b1135deb290f
 
 
 
-3088
-
-AddUserRole.aspx.designer.cs
-file
-
-
-
-
-2018-09-27T05:51:18.671875Z
-0cba77db3afb297c89e9a4918a89e7a2
-2017-10-16T15:37:54.860712Z
-1868
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1510
+1568
 
 AddRoleUser.aspx.designer.cs
 file
@@ -196,14 +128,14 @@ d456d19184d7a1a5d1167bb33103829d
 
 1514
 
-AddUserRole.aspx.cs
+AddUserRole.aspx.designer.cs
 file
 
 
 
 
-2018-09-27T05:51:18.718750Z
-ac20d7ce75f7c7ddb869c5eae4935988
+2018-09-27T05:51:18.671875Z
+0cba77db3afb297c89e9a4918a89e7a2
 2017-10-16T15:37:54.860712Z
 1868
 283335746
@@ -228,7 +160,41 @@ ac20d7ce75f7c7ddb869c5eae4935988
 
 
 
-6256
+1510
+
+UpdatePsw.aspx
+file
+
+
+
+
+2018-09-27T05:51:18.687500Z
+cb0e74720be694004b64b1135deb290f
+2017-10-16T15:37:54.860712Z
+1868
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3088
 
 AddRoleUser.aspx.cs
 file
@@ -264,6 +230,40 @@ file
 
 4316
 
+AddUserRole.aspx.cs
+file
+
+
+
+
+2018-09-27T05:51:18.718750Z
+ac20d7ce75f7c7ddb869c5eae4935988
+2017-10-16T15:37:54.860712Z
+1868
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6256
+
 UpdatePsw.aspx.designer.cs
 file
 
@@ -298,40 +298,6 @@ file
 
 476
 
-ListRoles.aspx
-file
-
-
-
-
-2018-09-27T05:51:18.765625Z
-0a028fd53a0e7033a416bc00dad28e8d
-2017-10-17T15:42:38.985712Z
-1873
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3021
-
 UpdatePsw.aspx.cs
 file
 
@@ -365,6 +331,40 @@ fbcd0aab748f428a775801e2e1e057c3
 
 
 379
+
+ListRoles.aspx
+file
+
+
+
+
+2018-09-27T05:51:18.765625Z
+0a028fd53a0e7033a416bc00dad28e8d
+2017-10-17T15:42:38.985712Z
+1873
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3021
 
 ListRoles.aspx.designer.cs
 file

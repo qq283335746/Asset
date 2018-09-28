@@ -1,7 +1,7 @@
 10
 
 dir
-2017
+2019
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/%E5%B9%BF%E5%B7%9E%E7%9F%BD%E4%BA%91%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/%E6%B7%B1%E5%9C%B3%E7%94%B5%E4%BF%A1%E6%80%BB%E5%B7%A5%E4%BC%9A%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/trunk/Codes/TygaSoft/Web/Manages/Bases
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6
 
@@ -400,40 +400,6 @@ file
 
 474
 
-AddProduct.aspx.designer.cs
-file
-
-
-
-
-2018-09-27T05:51:22.984375Z
-952e7c343ca8f2b51f0879d7b63a4e1b
-2017-11-03T09:10:02.355706Z
-1913
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-796
-
 AddProductRepair.aspx
 file
 
@@ -468,16 +434,16 @@ dcbba151035843cbb8da3c435bb7b696
 
 2776
 
-ListCustomer.aspx
+AddProduct.aspx.designer.cs
 file
 
 
 
 
-2018-09-27T05:51:23.031250Z
-a6e68ba012fda2511888f407124fc7f2
-2017-10-17T15:42:38.985712Z
-1873
+2018-09-27T05:51:22.984375Z
+952e7c343ca8f2b51f0879d7b63a4e1b
+2017-11-03T09:10:02.355706Z
+1913
 283335746
 
 
@@ -500,7 +466,7 @@ a6e68ba012fda2511888f407124fc7f2
 
 
 
-3049
+796
 
 AddProduct.aspx.cs
 file
@@ -535,6 +501,40 @@ cda3a79ca8b7e5d2ef30a86b0fe93cad
 
 
 351
+
+ListCustomer.aspx
+file
+
+
+
+
+2018-09-27T05:51:23.031250Z
+a6e68ba012fda2511888f407124fc7f2
+2017-10-17T15:42:38.985712Z
+1873
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3049
 
 AddOrgDepmt.aspx.cs
 file
@@ -1080,40 +1080,6 @@ file
 
 828
 
-AddContentType.aspx.cs
-file
-
-
-
-
-2018-09-27T05:51:22.000000Z
-f5f0cb57f636f6fc278a11022c3a05bb
-2017-10-17T07:55:54.813837Z
-1870
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-354
-
 AddProduct.aspx
 file
 
@@ -1147,6 +1113,40 @@ f22d7d805c7582d1ccea9f81a074ea79
 
 
 7586
+
+AddContentType.aspx.cs
+file
+
+
+
+
+2018-09-27T05:51:22.000000Z
+f5f0cb57f636f6fc278a11022c3a05bb
+2017-10-17T07:55:54.813837Z
+1870
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354
 
 AddCategory.aspx.cs
 file
@@ -1454,40 +1454,6 @@ file
 
 1091
 
-EditContent.aspx.designer.cs
-file
-
-
-
-
-2018-09-27T05:51:22.468750Z
-9abb266a0f7168e29090c3f6e15f15db
-2017-10-17T07:55:54.813837Z
-1870
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-486
-
 EditCategory.aspx
 file
 
@@ -1521,6 +1487,40 @@ eaf0e665a90ea4b9cb7307f9f6026022
 
 
 2110
+
+EditContent.aspx.designer.cs
+file
+
+
+
+
+2018-09-27T05:51:22.468750Z
+9abb266a0f7168e29090c3f6e15f15db
+2017-10-17T07:55:54.813837Z
+1870
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+486
 
 AddContentType.aspx
 file
@@ -1930,40 +1930,6 @@ file
 
 351
 
-DlgBarcodeTemplate.aspx.cs
-file
-
-
-
-
-2018-09-27T05:51:21.890625Z
-6a7a49eb67b1dfa358a3a1432120250e
-2017-10-30T11:22:20.652581Z
-1908
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-358
-
 AddCategory.aspx
 file
 
@@ -1997,6 +1963,40 @@ b556bbe363042cae9b16ce020875dfdf
 
 
 1778
+
+DlgBarcodeTemplate.aspx.cs
+file
+
+
+
+
+2018-09-27T05:51:21.890625Z
+6a7a49eb67b1dfa358a3a1432120250e
+2017-10-30T11:22:20.652581Z
+1908
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+358
 
 EditCategory.aspx.cs
 file

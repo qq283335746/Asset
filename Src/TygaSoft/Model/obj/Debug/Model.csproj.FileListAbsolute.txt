@@ -1,0 +1,5 @@
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\Model\bin\Debug\TygaSoft.Model.dll
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\Model\bin\Debug\TygaSoft.Model.pdb
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\Model\obj\Debug\TygaSoft.Model.dll
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\Model\obj\Debug\TygaSoft.Model.pdb

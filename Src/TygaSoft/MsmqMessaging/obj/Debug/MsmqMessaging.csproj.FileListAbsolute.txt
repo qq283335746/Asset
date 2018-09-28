@@ -1,0 +1,9 @@
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.MsmqMessaging.dll
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.MsmqMessaging.pdb
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.IMessaging.dll
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.Model.dll
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.IMessaging.pdb
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.Model.pdb
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\obj\Debug\ResolveAssemblyReference.cache
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\obj\Debug\TygaSoft.MsmqMessaging.dll
+C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\MsmqMessaging\obj\Debug\TygaSoft.MsmqMessaging.pdb

@@ -1,7 +1,7 @@
 10
 
 dir
-2017
+2019
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/%E5%B9%BF%E5%B7%9E%E7%9F%BD%E4%BA%91%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/%E6%B7%B1%E5%9C%B3%E7%94%B5%E4%BF%A1%E6%80%BB%E5%B7%A5%E4%BC%9A%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/trunk/Codes/TygaSoft/Model/AutoCode
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6
 
@@ -128,40 +128,6 @@ bb33472c7b94ccd7fde80bb03d8fde99
 
 1086
 
-StoragePlaceInfo.cs
-file
-
-
-
-
-2018-09-27T05:52:14.750000Z
-232fa83af3ec8c3e9b212143483bc203
-2017-10-18T11:33:38.313837Z
-1874
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1011
-
 SiteRolesInfo.cs
 file
 
@@ -196,16 +162,16 @@ a039acd4c5109dff4780044df46810cb
 
 740
 
-PandianAssetInfo.cs
+StoragePlaceInfo.cs
 file
 
 
 
 
-2018-09-27T05:52:14.796875Z
-1af17aa5563f767d53c2ae4ad4f3d147
-2017-10-22T09:57:51.072536Z
-1891
+2018-09-27T05:52:14.750000Z
+232fa83af3ec8c3e9b212143483bc203
+2017-10-18T11:33:38.313837Z
+1874
 283335746
 
 
@@ -228,7 +194,7 @@ file
 
 
 
-1719
+1011
 
 PandianInfo.cs
 file
@@ -264,16 +230,16 @@ cdc6ea64cd5dfc2c05ed106c12fde7a8
 
 1460
 
-ContentTypeInfo.cs
+PandianAssetInfo.cs
 file
 
 
 
 
-2018-09-27T05:52:14.828125Z
-0447ec448f223d0f993b5f7e9d44d927
-2017-10-17T07:55:54.813837Z
-1870
+2018-09-27T05:52:14.796875Z
+1af17aa5563f767d53c2ae4ad4f3d147
+2017-10-22T09:57:51.072536Z
+1891
 283335746
 
 
@@ -296,7 +262,7 @@ file
 
 
 
-1468
+1719
 
 SiteMenusInfo.cs
 file
@@ -332,14 +298,14 @@ a55a38dd6943511cb98a9ed5f0f05c52
 
 1078
 
-UserInOrgInfo.cs
+ContentTypeInfo.cs
 file
 
 
 
 
-2018-09-27T05:52:14.875000Z
-4b035f42bb5158436067dc2fede20abc
+2018-09-27T05:52:14.828125Z
+0447ec448f223d0f993b5f7e9d44d927
 2017-10-17T07:55:54.813837Z
 1870
 283335746
@@ -364,7 +330,7 @@ file
 
 
 
-492
+1468
 
 CategoryInfo.cs
 file
@@ -400,16 +366,16 @@ file
 
 1357
 
-SiteMembersInfo.cs
+UserInOrgInfo.cs
 file
 
 
 
 
-2018-09-27T05:52:14.468750Z
-00d52943be98e3453691dd51d4e0d549
-2017-10-16T15:07:46.766962Z
-1866
+2018-09-27T05:52:14.875000Z
+4b035f42bb5158436067dc2fede20abc
+2017-10-17T07:55:54.813837Z
+1870
 283335746
 
 
@@ -432,7 +398,7 @@ file
 
 
 
-2988
+492
 
 SiteMultiInfo.cs
 file
@@ -467,6 +433,40 @@ afbcedfc1c028eeaea0a09270eda17c0
 
 
 928
+
+SiteMembersInfo.cs
+file
+
+
+
+
+2018-09-27T05:52:14.468750Z
+00d52943be98e3453691dd51d4e0d549
+2017-10-16T15:07:46.766962Z
+1866
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2988
 
 ProductInfo.cs
 file

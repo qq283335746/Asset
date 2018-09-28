@@ -1,7 +1,7 @@
 10
 
 dir
-2017
+2019
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/%E5%B9%BF%E5%B7%9E%E7%9F%BD%E4%BA%91%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/%E6%B7%B1%E5%9C%B3%E7%94%B5%E4%BF%A1%E6%80%BB%E5%B7%A5%E4%BC%9A%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/trunk/Codes/TygaSoft/WcfModel
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6
 
@@ -94,40 +94,6 @@ file
 
 965
 
-HelloWordModel.cs
-file
-
-
-
-
-2018-09-27T05:52:12.984375Z
-a253b36571ed383187090399c8813ee7
-2017-10-16T15:07:46.766962Z
-1866
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-317
-
 ContentTypeFmModel.cs
 file
 
@@ -162,16 +128,16 @@ file
 
 802
 
-CategoryFmModel.cs
+HelloWordModel.cs
 file
 
 
 
 
-2018-09-27T05:52:13.031250Z
-6909b72f03ceea15e95aab058a155c4d
-2017-10-17T11:18:07.860712Z
-1871
+2018-09-27T05:52:12.984375Z
+a253b36571ed383187090399c8813ee7
+2017-10-16T15:07:46.766962Z
+1866
 283335746
 
 
@@ -194,7 +160,7 @@ file
 
 
 
-726
+317
 
 MenusPermissionModel.cs
 file
@@ -229,6 +195,40 @@ file
 
 
 410
+
+CategoryFmModel.cs
+file
+
+
+
+
+2018-09-27T05:52:13.031250Z
+6909b72f03ceea15e95aab058a155c4d
+2017-10-17T11:18:07.860712Z
+1871
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+726
 
 RoleModel.cs
 file
@@ -369,40 +369,6 @@ file
 Properties
 dir
 
-OrgFmModel.cs
-file
-
-
-
-
-2018-09-27T05:52:12.718750Z
-ee68e99cc191d287076e391fe585f4e8
-2017-10-17T07:55:54.813837Z
-1870
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-716
-
 WcfModel.csproj
 file
 
@@ -436,6 +402,40 @@ file
 
 
 3672
+
+OrgFmModel.cs
+file
+
+
+
+
+2018-09-27T05:52:12.718750Z
+ee68e99cc191d287076e391fe585f4e8
+2017-10-17T07:55:54.813837Z
+1870
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+716
 
 ListModel.cs
 file

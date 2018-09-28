@@ -1,7 +1,7 @@
 10
 
 dir
-2017
+2019
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/%E5%B9%BF%E5%B7%9E%E7%9F%BD%E4%BA%91%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/%E6%B7%B1%E5%9C%B3%E7%94%B5%E4%BF%A1%E6%80%BB%E5%B7%A5%E4%BC%9A%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/trunk/Codes/TygaSoft/IDAL
 http://115.28.5.84:8099/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6
 
@@ -60,16 +60,16 @@ file
 
 782
 
-Dics.cs
+IStoragePlace.cs
 file
 
 
 
 
-2018-09-27T05:46:47.578125Z
-f466f83e9995d2843e202c2f8ed4feea
-2017-10-17T15:42:38.985712Z
-1873
+2018-09-27T05:46:47.546875Z
+1a3b618c81de6e8c4353d85bfe951814
+2017-11-05T09:46:02.418206Z
+1922
 283335746
 
 
@@ -92,7 +92,7 @@ f466f83e9995d2843e202c2f8ed4feea
 
 
 
-391
+665
 
 ISiteRoles.cs
 file
@@ -128,16 +128,16 @@ file
 
 595
 
-IStoragePlace.cs
+Dics.cs
 file
 
 
 
 
-2018-09-27T05:46:47.546875Z
-1a3b618c81de6e8c4353d85bfe951814
-2017-11-05T09:46:02.418206Z
-1922
+2018-09-27T05:46:47.578125Z
+f466f83e9995d2843e202c2f8ed4feea
+2017-10-17T15:42:38.985712Z
+1873
 283335746
 
 
@@ -160,41 +160,7 @@ file
 
 
 
-665
-
-IPandianAsset.cs
-file
-
-
-
-
-2018-09-27T05:46:47.609375Z
-68568fe2575259ad37dfda57f2b96975
-2017-10-24T15:12:00.369411Z
-1897
-283335746
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-652
+391
 
 IPandian.cs
 file
@@ -230,16 +196,16 @@ a0858aac482a3e233f6cf917b528542a
 
 651
 
-ISiteMenus.cs
+IPandianAsset.cs
 file
 
 
 
 
-2018-09-27T05:46:47.640625Z
-9a8bcddba79d5f2352c957b1457943fa
-2017-10-16T15:07:46.766962Z
-1866
+2018-09-27T05:46:47.609375Z
+68568fe2575259ad37dfda57f2b96975
+2017-10-24T15:12:00.369411Z
+1897
 283335746
 
 
@@ -262,7 +228,7 @@ file
 
 
 
-567
+652
 
 IContentType.cs
 file
@@ -298,6 +264,40 @@ eb5fe1ecf2833fdad2afcdf6cbe4e56d
 
 405
 
+ISiteMenus.cs
+file
+
+
+
+
+2018-09-27T05:46:47.640625Z
+9a8bcddba79d5f2352c957b1457943fa
+2017-10-16T15:07:46.766962Z
+1866
+283335746
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+567
+
 ICategory.cs
 file
 
@@ -332,9 +332,6 @@ file
 
 459
 
-Properties
-dir
-
 ISiteMulti.cs
 file
 
@@ -368,6 +365,9 @@ file
 
 
 487
+
+Properties
+dir
 
 IProduct.cs
 file
