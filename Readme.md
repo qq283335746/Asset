@@ -17,5 +17,3 @@
 ![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset003.png)
 ![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset004.png)
 ![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset005.png)
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset006.png)
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset007.png)
