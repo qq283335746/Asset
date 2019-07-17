@@ -1,0 +1,10 @@
+﻿<ion-view view-title="智能资产管理终端">
+    <ion-content class="home">
+        <ion-list>
+            <ion-item class="item item-icon-left item-icon-right" ng-repeat="item in HomeMenuItems" href="{{item.Url}}">
+                <i class="icon"><img src="{{item.Src}}" /></i>{{item.Name}}
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

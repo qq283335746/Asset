@@ -1,5 +1,0 @@
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskCA\bin\Debug\TygaSoft.TaskCA.exe
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskCA\bin\Debug\TygaSoft.TaskCA.pdb
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskCA\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskCA\obj\x86\Debug\TygaSoft.TaskCA.exe
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\TaskCA\obj\x86\Debug\TygaSoft.TaskCA.pdb

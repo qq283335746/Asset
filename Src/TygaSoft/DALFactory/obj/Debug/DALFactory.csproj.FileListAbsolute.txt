@@ -1,9 +1,0 @@
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\bin\Debug\TygaSoft.DALFactory.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\bin\Debug\TygaSoft.DALFactory.pdb
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\bin\Debug\TygaSoft.IDAL.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\bin\Debug\TygaSoft.Model.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\bin\Debug\TygaSoft.IDAL.pdb
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\bin\Debug\TygaSoft.Model.pdb
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\obj\Debug\ResolveAssemblyReference.cache
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\obj\Debug\TygaSoft.DALFactory.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DALFactory\obj\Debug\TygaSoft.DALFactory.pdb

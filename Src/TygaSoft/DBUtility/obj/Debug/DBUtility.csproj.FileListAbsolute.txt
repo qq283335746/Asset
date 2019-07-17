@@ -1,5 +1,0 @@
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DBUtility\bin\Debug\TygaSoft.DBUtility.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DBUtility\bin\Debug\TygaSoft.DBUtility.pdb
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DBUtility\obj\Debug\ResolveAssemblyReference.cache
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DBUtility\obj\Debug\TygaSoft.DBUtility.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\DBUtility\obj\Debug\TygaSoft.DBUtility.pdb

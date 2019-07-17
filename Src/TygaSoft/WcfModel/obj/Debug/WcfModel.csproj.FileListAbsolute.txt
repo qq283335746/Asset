@@ -1,5 +1,0 @@
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\WcfModel\bin\Debug\TygaSoft.WcfModel.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\WcfModel\bin\Debug\TygaSoft.WcfModel.pdb
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\WcfModel\obj\Debug\ResolveAssemblyReference.cache
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\WcfModel\obj\Debug\TygaSoft.WcfModel.dll
-C:\MyCodeWorkspace\深圳电信总工会资产管理系统\Codes\TygaSoft\WcfModel\obj\Debug\TygaSoft.WcfModel.pdb
