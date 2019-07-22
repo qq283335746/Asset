@@ -18,7 +18,7 @@ namespace TygaSoft.Web
     public class Global : System.Web.HttpApplication
     {
         private const string DefaultUserName = "admin";
-        private const string DefaultRoleName = "Administrator";
+        private const string DefaultRoleName = "Administrators";
 
         protected void Application_Start(object sender, EventArgs e)
         {
@@ -26,7 +26,7 @@ namespace TygaSoft.Web
             //log4net.Config.XmlConfigurator.ConfigureAndWatch(logCfg);
 
             var roles = Roles.GetAllRoles();
-            if (!roles.Any(m => m.Equals("administrator", StringComparison.OrdinalIgnoreCase)))
+            if (!roles.Any(m => m.Equals("administrators", StringComparison.OrdinalIgnoreCase)))
             {
                 Roles.CreateRole(DefaultRoleName);
             }
