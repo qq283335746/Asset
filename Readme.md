@@ -5,16 +5,20 @@
 安装与部署：
 
 1、克隆源码
+
 选择一个剩余空间最大的磁盘，如E盘，分别新建三个文件夹Asset，Asset/Publish，Asset/Source，从github下载源码至Asset/Source目录，执行命令下载
 git clone https://github.com/qq283335746/Asset.git
 
 2、下载并安装sql server数据库以及管理工具
+
 下载并安装SQL Server 2017 Express（sql server2005、sql server2008 r2等版本都行），下载地址：https://www.microsoft.com/zh-cn/sql-server/sql-server-downloads，下载并安装SSMS管理工具：https://docs.microsoft.com/zh-cn/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
 
 3、安装数据库
+
 打开sql server管理工具，并附加TygaSoftAspnetDb、AssetDb数据库
 
 4、下载并安装visual studio
+
 https://visualstudio.microsoft.com/zh-hans/downloads/
 
 5、使用visual studio打开解决方案文件，并运行源码、发布项目
