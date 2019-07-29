@@ -26,15 +26,20 @@ namespace TygaSoft.Web
             //log4net.Config.XmlConfigurator.ConfigureAndWatch(logCfg);
 
             var roles = Roles.GetAllRoles();
-            if (!roles.Any(m => m.Equals("administrators", StringComparison.OrdinalIgnoreCase)))
+            if (!roles.Any(m => m.Equals(DefaultRoleName, StringComparison.OrdinalIgnoreCase)))
             {
                 Roles.CreateRole(DefaultRoleName);
             }
-            var user = Membership.GetUser(DefaultUserName);
-            if(user == null)
-            {
-                user = Membership.CreateUser(DefaultUserName, DefaultUserName+"123456");
 
+            if (!Membership.ValidateUser(DefaultUserName, DefaultUserName + "123456"))
+            {
+                var user = Membership.GetUser(DefaultUserName);
+                if (user != null)
+                {
+                    Membership.DeleteUser(DefaultUserName, true);
+                }
+
+                user = Membership.CreateUser(DefaultUserName, DefaultUserName + "123456");
                 Roles.AddUserToRole(DefaultUserName, DefaultRoleName);
             }
         }
@@ -46,7 +51,7 @@ namespace TygaSoft.Web
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
@@ -77,7 +82,8 @@ namespace TygaSoft.Web
 
                 new Auth().SetMigrateAnonymous();
             }
-            catch(Exception ex) {
+            catch (Exception ex)
+            {
                 Log.Error(string.Format("Profile_OnMigrateAnonymous--ex：{0}", ex.Message), ex);
             }
         }
