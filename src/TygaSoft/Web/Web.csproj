@@ -955,7 +955,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Files\Download\afdsaas-release-v001.apk" />
     <Content Include="Handlers\HandlerContent.ashx" />
     <Content Include="Handlers\HandlerUpload.ashx" />
     <Content Include="Handlers\ValidateCode.ashx" />
@@ -966,11 +965,14 @@
     </Content>
     <Content Include="Masters\Manages.Master" />
     <Content Include="Masters\Shares.Master" />
+    <Content Include="Files\Download\asset-release-013.apk" />
     <None Include="Files\Template\存放地点导入模板.xlsx" />
     <None Include="Files\Template\组织机构导入模板.xlsx" />
     <None Include="Files\Template\资产分类导入模板.xlsx" />
     <None Include="Files\Template\资产导入模板.xlsx" />
     <Content Include="Masters\Blank.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\TygaSoft.Web.pubxml" />
     <None Include="Scripts\Plugins\Jeasyui15\themes\material\images\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
