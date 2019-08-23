@@ -1,6 +1,7 @@
 # 使用windows 10部署固资管理Asset
 
 一、数据库安装与配置
+
 1、打开Microsoft SQL Server Management Studio，分别附加TygaSoftAspnetDb、 AssetDb
 
 2、分别在TygaSoftAspnetDb、AssetDb创建用户Network Service,并分配db_owner权限

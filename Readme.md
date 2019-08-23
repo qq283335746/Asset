@@ -11,7 +11,11 @@ git clone https://github.com/qq283335746/Asset.git
 
 2、下载并安装sql server数据库以及管理工具
 
-下载并安装SQL Server 2017 Express（sql server2005、sql server2008 r2等版本都行），下载地址：https://www.microsoft.com/zh-cn/sql-server/sql-server-downloads，下载并安装SSMS管理工具：https://docs.microsoft.com/zh-cn/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
+下载并安装SQL Server 2017 Express（sql server2005、sql server2008 r2等版本都行），下载地址：
+
+https://www.microsoft.com/zh-cn/sql-server/sql-server-downloads
+
+下载并安装SSMS管理工具：https://docs.microsoft.com/zh-cn/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
 
 3、安装数据库
 
@@ -24,6 +28,8 @@ https://visualstudio.microsoft.com/zh-hans/downloads/
 5、使用visual studio打开解决方案文件，并运行源码、发布项目
 
 6、运行，看到登录界面，登录账号：admin  admin123456
+
+7、PDA接口设置：http://xx.xxx.xxx.xx/Asset
 
 安装与部署参考：
 
@@ -42,8 +48,48 @@ https://visualstudio.microsoft.com/zh-hans/downloads/
 
 智能固定资产管理截图如下：
 
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset001.png)
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset002.png)
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset003.png)
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset004.png)
-![image](https://github.com/qq283335746/My/blob/master/MyImages/Asset/asset005.png)
+后台管理功能截图：
+
+![pda](./images/asset001.png)
+
+![pda](./images/asset002.png)
+
+![pda](./images/asset003.png)
+
+![pda](./images/asset004.png)
+
+![pda](./images/asset005.png)
+
+![pda](./images/asset006.png)
+
+![pda](./images/asset007.png)
+
+![pda](./images/asset008.png)
+
+![pda](./images/asset009.png)
+
+![pda](./images/asset010.png)
+
+![pda](./images/asset011.png)
+
+![pda](./images/asset012.png)
+
+![pda](./images/asset013.png)
+
+![pda](./images/asset014.png)
+
+![pda](./images/asset015.png)
+
+PDA端功能截图：
+
+![pda](./images/Pda001.png)
+![pda](./images/Pda002.png)
+![pda](./images/Pda003.png)
+![pda](./images/Pda004.png)
+![pda](./images/Pda005.jpg)
+![pda](./images/Pda006.png)
+![pda](./images/Pda007.png)
+![pda](./images/Pda008.jpg)
+![pda](./images/Pda009.jpg)
+![pda](./images/Pda010.jpg)
+![pda](./images/Pda011.jpg)
