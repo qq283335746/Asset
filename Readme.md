@@ -27,7 +27,7 @@ https://visualstudio.microsoft.com/zh-hans/downloads/
 
 安装与部署参考：
 
-[windows iis10 部署](./docs/Win10)
+[windows iis10 部署](./docs/Win10.md)
 
 
 智能固定资产管理技术点标签：
