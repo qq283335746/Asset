@@ -29,7 +29,7 @@
             <div class="fl pdl5">
                 <img id="imgLogo" runat="server" visible="false" width="50" height="50" class="mlr10" />
                 <span runat="server" id="lbSiteTitle" class="sitetitle"></span>
-                <a class="mlr10" href="/Asset/s/download.html" target="_blank" style="text-decoration:underline;">手持终端PDA下载</a>
+                <a class="mlr10" href="/Asset/Files/Download/asset-release-013.apk" target="_blank" style="text-decoration:underline;">手持终端PDA下载</a>
             </div>
             <div class="lvUser">
                 <asp:LoginView ID="lvUser" runat="server">
