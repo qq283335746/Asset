@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Publish\Asset\Web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/UrlRewriter.xml">
+      <publishTime>08/23/2019 09:08:39</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>07/17/2019 13:29:26</publishTime>
+    </File>
+    <File Include="bin/Intelligencia.UrlRewriter.dll">
+      <publishTime>07/17/2019 13:29:26</publishTime>
+    </File>
+    <File Include="bin/Log4net.config">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>07/17/2019 13:29:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/17/2019 13:29:26</publishTime>
+    </File>
+    <File Include="bin/Select.HtmlToPdf.dll">
+      <publishTime>07/17/2019 13:29:26</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.BLL.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.BLL.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.Converter.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.Converter.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.CustomProvider.dll">
+      <publishTime>08/22/2019 17:01:45</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.CustomProvider.pdb">
+      <publishTime>08/22/2019 17:01:45</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.DALFactory.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.DALFactory.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.DBUtility.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.DBUtility.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.IDAL.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.IDAL.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.IMessaging.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.IMessaging.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.MessagingFactory.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.MessagingFactory.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.Model.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.Model.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.SqlServerDAL.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.SqlServerDAL.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.SysException.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.SysException.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.SysUtility.dll">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.SysUtility.pdb">
+      <publishTime>08/22/2019 17:01:44</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.WcfModel.dll">
+      <publishTime>08/22/2019 17:01:43</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.WcfModel.pdb">
+      <publishTime>08/22/2019 17:01:43</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.WcfService.dll">
+      <publishTime>08/22/2019 17:01:45</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.WcfService.pdb">
+      <publishTime>08/22/2019 17:01:45</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.Web.dll">
+      <publishTime>08/23/2019 10:15:47</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.Web.pdb">
+      <publishTime>08/23/2019 10:15:47</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.WebUtility.dll">
+      <publishTime>08/22/2019 17:01:45</publishTime>
+    </File>
+    <File Include="bin/TygaSoft.WebUtility.pdb">
+      <publishTime>08/22/2019 17:01:45</publishTime>
+    </File>
+    <File Include="bin/zxing.dll">
+      <publishTime>07/17/2019 13:29:26</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Files/Download/asset-release-013.apk">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Handlers/HandlerContent.ashx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Handlers/HandlerUpload.ashx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Handlers/ValidateCode.ashx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Handlers/Web.config">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Images/loginl.jpg">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Images/nopic.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Images/pda.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Log4net.config">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddCategory.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddContentDetail.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddContentType.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddCustomer.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddDics.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddOrgDepmt.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddProduct.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddProductRepair.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddStaff.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/AddStoragePlace.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/BarcodeCtr.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/DlgBarcodeTemplate.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/DlgProduct.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/EditCategory.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/EditContent.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/EditDics.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/EditOrgDepmt.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/ListCustomer.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/ListProduct.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/ListProductRepair.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Bases/ListStoragePlace.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Default.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Members/AddRoleUser.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Members/AddUser.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Members/AddUserRole.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Members/ListRoles.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Members/ListUsers.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Members/UpdatePsw.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Pandian/AddPandian.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Pandian/ListPandian.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Pandian/ListPandianAsset.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/PrintBarcodeTemplate.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Reports/ProductReport.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Sys/AddMenus.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Sys/AddSiteMulti.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Sys/DlgUsers.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Sys/ListMenus.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Sys/ListRoleMenu.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Sys/ListSiteMulti.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Manages/Web.config">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Masters/Blank.Master">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Masters/Manages.Master">
+      <publishTime>08/23/2019 09:08:46</publishTime>
+    </File>
+    <File Include="Masters/Shares.Master">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Common.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/DlgFiles.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/JeasyuiExtend.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/JeasyuiHelper.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Login.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/BarcodeCtr.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/BarcodeTemplate.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/Category.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/ContentDetail.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/ContentType.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/Customer.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/Dics.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/DlgProduct.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/OrgDepmt.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/Product.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/ProductRepair.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/Staff.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Bases/StoragePlace.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Members/ListUser.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Members/Roles.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Pandian/Pandian.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Pandian/PandianAsset.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Prints/PrintBarcode.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Sys/DlgUsers.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Sys/ListMenus.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Sys/ListRoleMenu.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/Sys/SiteMulti.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Manages/UCMenu.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Menus.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/datagrid-cellediting.js">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/changelog.txt">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/easyloader.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/jquery.easyui.min.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/jquery.easyui.mobile.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/jquery.min.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/license_freeware.txt">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/locale/easyui-lang-en.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/locale/easyui-lang-zh_CN.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/locale/easyui-lang-zh_TW.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.accordion.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.calendar.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.combo.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.combobox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.combogrid.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.combotree.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.combotreegrid.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.datagrid.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.datalist.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.datebox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.datetimebox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.datetimespinner.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.dialog.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.draggable.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.droppable.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.filebox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.form.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.layout.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.linkbutton.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.menu.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.menubutton.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.messager.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.mobile.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.numberbox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.numberspinner.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.pagination.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.panel.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.parser.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.passwordbox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.progressbar.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.propertygrid.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.resizable.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.searchbox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.slider.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.spinner.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.splitbutton.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.switchbutton.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.tabs.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.textbox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.timespinner.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.tooltip.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.tree.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.treegrid.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.validatebox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/plugins/jquery.window.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/readme.txt">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/easyloader.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.accordion.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.calendar.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.combobox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.datebox.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.draggable.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.droppable.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.form.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.linkbutton.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.menu.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.parser.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.progressbar.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.propertygrid.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.resizable.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.slider.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.tabs.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/src/jquery.window.js">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/accordion.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/calendar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/combo.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/combobox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/datagrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/datalist.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/datebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/dialog.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/easyui.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/filebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/accordion_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/blank.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/calendar_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/combo_arrow.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/datagrid_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/datebox_arrow.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/layout_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/linkbutton_bg.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/loading.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/menu_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/messager_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/pagination_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/panel_tools.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/passwordbox_close.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/passwordbox_open.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/searchbox_button.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/slider_handle.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/spinner_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/tabs_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/tree_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/images/validatebox_warning.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/layout.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/linkbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/menu.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/menubutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/messager.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/numberbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/pagination.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/panel.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/passwordbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/progressbar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/propertygrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/searchbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/slider.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/spinner.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/splitbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/switchbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/tabs.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/textbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/tooltip.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/tree.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/validatebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/black/window.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/accordion.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/calendar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/combo.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/combobox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/datagrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/datalist.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/datebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/dialog.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/easyui.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/filebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/accordion_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/blank.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/calendar_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/combo_arrow.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/datagrid_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/datebox_arrow.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/layout_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/linkbutton_bg.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/loading.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/menu_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/messager_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/pagination_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/panel_tools.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/passwordbox_close.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/passwordbox_open.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/searchbox_button.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/slider_handle.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/spinner_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/tabs_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/tree_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/images/validatebox_warning.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/layout.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/linkbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/menu.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/menubutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/messager.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/numberbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/pagination.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/panel.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/passwordbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/progressbar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/propertygrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/searchbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/slider.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/spinner.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/splitbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/switchbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/tabs.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/textbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/tooltip.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/tree.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/validatebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/bootstrap/window.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/color.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/accordion.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/calendar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/combo.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/combobox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/datagrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/datalist.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/datebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/dialog.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/easyui.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/filebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/accordion_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/blank.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/calendar_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/combo_arrow.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/datagrid_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/datebox_arrow.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/layout_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/linkbutton_bg.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/loading.gif">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/menu_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/messager_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/pagination_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/panel_tools.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/passwordbox_close.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/passwordbox_open.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/searchbox_button.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/slider_handle.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/spinner_arrows.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/tabs_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/tree_icons.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/images/validatebox_warning.png">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/layout.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/linkbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/menu.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/menubutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/messager.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/numberbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/pagination.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/panel.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/passwordbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/progressbar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/propertygrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/searchbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/slider.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/spinner.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/splitbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/switchbutton.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/tabs.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/textbox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/tooltip.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/tree.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/validatebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/default/window.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/accordion.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/calendar.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/combo.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/combobox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/datagrid.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/datalist.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/datebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/dialog.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/easyui.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/filebox.css">
+      <publishTime>07/17/2019 13:29:27</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/accordion_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/blank.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/calendar_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/combo_arrow.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/datagrid_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/datebox_arrow.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/layout_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/linkbutton_bg.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/loading.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/menu_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/messager_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/pagination_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/panel_tools.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/passwordbox_close.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/passwordbox_open.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/searchbox_button.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/slider_handle.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/spinner_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/tabs_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/tree_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/images/validatebox_warning.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/layout.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/linkbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/menu.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/menubutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/messager.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/numberbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/pagination.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/panel.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/passwordbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/progressbar.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/propertygrid.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/searchbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/slider.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/spinner.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/splitbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/switchbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/tabs.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/textbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/tooltip.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/tree.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/validatebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/gray/window.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icon.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/back.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/blank.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/cancel.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/clear.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/cut.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/edit_add.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/edit_remove.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/filesave.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/filter.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/help.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/large_chart.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/large_clipart.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/large_picture.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/large_shapes.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/large_smartart.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/lock.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/man.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/mini_add.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/mini_edit.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/mini_refresh.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/more.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/no.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/ok.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/pencil.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/print.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/redo.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/reload.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/search.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/sum.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/tip.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/icons/undo.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/accordion.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/calendar.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/combo.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/combobox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/datagrid.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/datalist.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/datebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/dialog.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/easyui.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/filebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/accordion_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/blank.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/calendar_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/combo_arrow.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/datagrid_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/datebox_arrow.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/layout_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/linkbutton_bg.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/loading.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/menu_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/messager_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/pagination_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/panel_tools.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/passwordbox_close.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/passwordbox_open.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/searchbox_button.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/slider_handle.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/spinner_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/tabs_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/tree_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/images/validatebox_warning.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/layout.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/linkbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/menu.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/menubutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/messager.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/numberbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/pagination.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/panel.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/passwordbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/progressbar.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/propertygrid.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/searchbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/slider.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/spinner.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/splitbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/switchbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/tabs.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/textbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/tooltip.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/tree.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/validatebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/material/window.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/accordion.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/calendar.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/combo.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/combobox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/datagrid.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/datalist.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/datebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/dialog.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/easyui.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/filebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/accordion_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/blank.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/calendar_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/combo_arrow.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/datagrid_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/datebox_arrow.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/layout_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/linkbutton_bg.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/loading.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/menu_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/messager_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/pagination_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/panel_tools.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/passwordbox_close.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/passwordbox_open.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/searchbox_button.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/slider_handle.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/spinner_arrows.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/tabs_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/tree_icons.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/images/validatebox_warning.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/layout.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/linkbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/menu.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/menubutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/messager.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/numberbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/pagination.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/panel.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/passwordbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/progressbar.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/propertygrid.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/searchbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/slider.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/spinner.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/splitbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/switchbutton.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/tabs.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/textbox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/tooltip.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/tree.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/validatebox.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/metro/window.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jeasyui15/themes/mobile.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/jquery.PrintArea.js">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Plugins/Jquery/jquery-1.10.2.min.js">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/Shares/Orders.js">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Scripts/String.js">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Services/PdaService.svc">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Services/SecurityService.svc">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Services/Service.svc">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Shares/ListOrderProcess.aspx">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Shares/Versions/AppVersion.aspx">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Images/bg_lightgreen.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Images/icon.png">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Images/loading.gif">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Login.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Main.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Mobile.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/ui-v1.0.1.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Styles/Users.css">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/23/2019 10:15:47</publishTime>
+    </File>
+    <File Include="WebUserControls/UCMenu.ascx">
+      <publishTime>07/17/2019 13:29:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

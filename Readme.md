@@ -25,6 +25,10 @@ https://visualstudio.microsoft.com/zh-hans/downloads/
 
 6、运行，看到登录界面，登录账号：admin  admin123456
 
+安装与部署参考：
+
+[windows iis10 部署](docs/Win10)
+
 
 智能固定资产管理技术点标签：
 
