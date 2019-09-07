@@ -55,11 +55,11 @@
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{477749E7-8B7E-4561-B92E-6A15344B7D5D}</Project>
-      <Name>BLL %28BLL\BLL%29</Name>
+      <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2E27DA67-2EFF-46E7-9513-836B4C1180F0}</Project>
-      <Name>Model %28Model\Model%29</Name>
+      <Name>Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\SysUtility\SysUtility.csproj">
       <Project>{4491EDB9-7BCD-43C6-ADD5-EC5719561EC0}</Project>

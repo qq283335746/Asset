@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoCode\Dics.cs" />
+    <Compile Include="AutoCode\IDics.cs" />
     <Compile Include="AutoCode\IApplications.cs" />
     <Compile Include="AutoCode\IBarcodeTemplate.cs" />
     <Compile Include="AutoCode\ICategory.cs" />
@@ -60,7 +60,7 @@
     <Compile Include="AutoCode\ISiteUsers.cs" />
     <Compile Include="AutoCode\IStoragePlace.cs" />
     <Compile Include="AutoCode\IUsersInRoles.cs" />
-    <Compile Include="Dics.cs" />
+    <Compile Include="IDics.cs" />
     <Compile Include="IApplications.cs" />
     <Compile Include="IBarcodeTemplate.cs" />
     <Compile Include="ICategory.cs" />
@@ -86,7 +86,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2E27DA67-2EFF-46E7-9513-836B4C1180F0}</Project>
-      <Name>Model %28Model\Model%29</Name>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

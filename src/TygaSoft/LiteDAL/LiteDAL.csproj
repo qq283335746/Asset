@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FBAA03F0-A196-486B-8AB8-8D04C5CD0A18}</ProjectGuid>
+    <ProjectGuid>{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TygaSoft.Converter</RootNamespace>
-    <AssemblyName>TygaSoft.Converter</AssemblyName>
+    <RootNamespace>Yibi.LiteDAL</RootNamespace>
+    <AssemblyName>Yibi.LiteDAL</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,54 +31,50 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\DocumentFormat.OpenXml.dll</HintPath>
+    <Reference Include="LiteDB, Version=4.1.4.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiteDB.4.1.4\lib\net40\LiteDB.dll</HintPath>
     </Reference>
-    <Reference Include="Select.HtmlToPdf">
-      <HintPath>..\Libraries\Select.HtmlToPdf.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
-    <Reference Include="zxing">
-      <HintPath>..\Libraries\zxing.dll</HintPath>
-    </Reference>
-    <Reference Include="zxing.presentation">
-      <HintPath>..\Libraries\zxing.presentation.dll</HintPath>
+    <Reference Include="Yibi.LiteMembershipProvider">
+      <HintPath>..\Libraries\Yibi.LiteMembershipProvider.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BarcodeHelper.cs" />
-    <Compile Include="BarcodeInfo.cs" />
-    <Compile Include="ExcelHelper.cs" />
+    <Compile Include="Applications.cs" />
+    <Compile Include="BarcodeTemplate.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="ConnectionHelper.cs" />
+    <Compile Include="ContentType.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Dics.cs" />
+    <Compile Include="FeatureUser.cs" />
+    <Compile Include="LiteDbContext.cs" />
+    <Compile Include="OrgDepmt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectPdfConvert.cs" />
-    <Compile Include="ZxingHelper.cs" />
+    <Compile Include="ConvertToModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{F463E272-D4CA-4021-B505-5717DB93C4F9}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2E27DA67-2EFF-46E7-9513-836B4C1180F0}</Project>
       <Name>Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SysUtility\SysUtility.csproj">
-      <Project>{4491EDB9-7BCD-43C6-ADD5-EC5719561EC0}</Project>
-      <Name>SysUtility</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

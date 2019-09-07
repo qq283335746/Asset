@@ -91,11 +91,11 @@
   <ItemGroup>
     <ProjectReference Include="..\DALFactory\DALFactory.csproj">
       <Project>{23BEF60C-3072-415F-AC1F-C4B0F8F47F9B}</Project>
-      <Name>DALFactory %28DALFactory\DALFactory%29</Name>
+      <Name>DALFactory</Name>
     </ProjectReference>
     <ProjectReference Include="..\IDAL\IDAL.csproj">
       <Project>{F463E272-D4CA-4021-B505-5717DB93C4F9}</Project>
-      <Name>IDAL %28IDAL\IDAL%29</Name>
+      <Name>IDAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\IMessaging\IMessaging.csproj">
       <Project>{56CB5A10-E7EE-4416-B3BC-481B63C37E62}</Project>
@@ -107,7 +107,7 @@
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2E27DA67-2EFF-46E7-9513-836B4C1180F0}</Project>
-      <Name>Model %28Model\Model%29</Name>
+      <Name>Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\SysUtility\SysUtility.csproj">
       <Project>{4491EDB9-7BCD-43C6-ADD5-EC5719561EC0}</Project>

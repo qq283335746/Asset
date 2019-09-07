@@ -15,6 +15,7 @@ namespace TygaSoft.Model
             this.LastUpdatedDate = lastUpdatedDate;
         }
 
+        public Guid Id { get; set; }
         public Guid UserId { get; set; }
         public Guid FeatureId { get; set; }
         public string TypeName { get; set; }

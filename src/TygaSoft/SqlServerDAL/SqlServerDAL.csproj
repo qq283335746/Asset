@@ -91,15 +91,15 @@
   <ItemGroup>
     <ProjectReference Include="..\DBUtility\DBUtility.csproj">
       <Project>{80D4638A-E7A6-409F-9AB3-F8DAC12285F7}</Project>
-      <Name>DBUtility %28DBUtility\DBUtility%29</Name>
+      <Name>DBUtility</Name>
     </ProjectReference>
     <ProjectReference Include="..\IDAL\IDAL.csproj">
       <Project>{F463E272-D4CA-4021-B505-5717DB93C4F9}</Project>
-      <Name>IDAL %28IDAL\IDAL%29</Name>
+      <Name>IDAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2E27DA67-2EFF-46E7-9513-836B4C1180F0}</Project>
-      <Name>Model %28Model\Model%29</Name>
+      <Name>Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\SysUtility\SysUtility.csproj">
       <Project>{4491EDB9-7BCD-43C6-ADD5-EC5719561EC0}</Project>

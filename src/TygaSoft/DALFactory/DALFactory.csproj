@@ -47,7 +47,7 @@
   <ItemGroup>
     <ProjectReference Include="..\IDAL\IDAL.csproj">
       <Project>{F463E272-D4CA-4021-B505-5717DB93C4F9}</Project>
-      <Name>IDAL %28IDAL\IDAL%29</Name>
+      <Name>IDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

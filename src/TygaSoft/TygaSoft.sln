@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{FA2B1E04-566D-41FC-8428-4538929D4899}"
 EndProject
@@ -68,6 +68,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUtility", "WebUtility\WebUtility.csproj", "{7A0ACB2C-BF5D-4CD3-9F53-F1C59D300ED7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter.csproj", "{FBAA03F0-A196-486B-8AB8-8D04C5CD0A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDAL", "LiteDAL\LiteDAL.csproj", "{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +281,18 @@ Global
 		{FBAA03F0-A196-486B-8AB8-8D04C5CD0A18}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{FBAA03F0-A196-486B-8AB8-8D04C5CD0A18}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FBAA03F0-A196-486B-8AB8-8D04C5CD0A18}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Debug|x86.Build.0 = Debug|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -304,5 +318,9 @@ Global
 		{B64388AB-03D0-4B8B-A64F-A77D372977F3} = {8ECC3CCB-C20F-45EA-AEEE-155DE342DCD1}
 		{7A0ACB2C-BF5D-4CD3-9F53-F1C59D300ED7} = {8ECC3CCB-C20F-45EA-AEEE-155DE342DCD1}
 		{FBAA03F0-A196-486B-8AB8-8D04C5CD0A18} = {C4FAD9AD-CD38-472F-BD8F-BB60313BA263}
+		{A3C2D629-12A6-4F5F-B14D-997C0AB6B8DF} = {B46B5547-E3C5-40C8-ADCB-09E077167E5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C0A1A6-D28C-416E-A703-91EC9981FECE}
 	EndGlobalSection
 EndGlobal
