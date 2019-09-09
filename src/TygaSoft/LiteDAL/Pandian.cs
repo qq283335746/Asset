@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using TygaSoft.IDAL;
 using TygaSoft.Model;
+using TygaSoft.SysUtility;
 
 namespace Yibi.LiteDAL
 {
@@ -44,7 +45,7 @@ namespace Yibi.LiteDAL
 
         public IList<PandianInfo> GetList()
         {
-            throw new NotImplementedException();
+            return _db.Pandians.FindAll().ToList();
         }
 
         public IList<PandianInfo> GetListByJoin(int pageIndex, int pageSize, out int totalRecords, string sqlWhere, params SqlParameter[] cmdParms)
@@ -54,42 +55,68 @@ namespace Yibi.LiteDAL
 
         public PandianInfo GetModel(Guid id)
         {
-            throw new NotImplementedException();
+            return _db.Pandians.FindById(id);
         }
 
         public PandianInfo GetModelByJoin(string sqlWhere, params SqlParameter[] cmdParms)
         {
-            throw new NotImplementedException();
+            PandianInfo pandianInfo = ConvertToModel.ToModel<PandianInfo>(cmdParms);
+            if (!pandianInfo.Id.Equals(Guid.Empty))
+            {
+                return _db.Pandians.FindById(pandianInfo.Id);
+            }
+
+            return null;
         }
 
         public int[] GetTotal()
         {
-            throw new NotImplementedException();
+            List<int> totals = new List<int>();
+            totals.Add(_db.Pandians.Count());
+            totals.Add(_db.Pandians.Find(m => m.Status.Equals((int)EnumStatus.完成)).Count());
+            totals.Add(_db.Pandians.Find(m => !m.Status.Equals((int)EnumStatus.完成)).Count());
+
+            return totals.ToArray();
         }
 
         public int Insert(PandianInfo model)
         {
-            throw new NotImplementedException();
+            model.Id = Guid.NewGuid();
+            _db.Pandians.Insert(model);
+
+            return 1;
         }
 
         public int InsertByOutput(PandianInfo model)
         {
-            throw new NotImplementedException();
+            _db.Pandians.Insert(model);
+
+            return 1;
         }
 
         public bool IsExistChildren(Guid id)
         {
-            throw new NotImplementedException();
+            return _db.PandianAssets.Exists(m => m.PandianId.Equals(id));
         }
 
         public int Update(PandianInfo model)
         {
-            throw new NotImplementedException();
+            _db.Pandians.Update(model);
+
+            return 1;
         }
 
         public int UpdateIsDown(object Id)
         {
-            throw new NotImplementedException();
+            PandianInfo oldInfo = _db.Pandians.FindById((Guid)Id);
+            if (oldInfo == null) return 0;
+
+            oldInfo.IsDown = true;
+            oldInfo.Status = (int)EnumPandianStatus.进行中;
+
+            _db.Pandians.Update(oldInfo);
+
+            return 1;
         }
     }
 }

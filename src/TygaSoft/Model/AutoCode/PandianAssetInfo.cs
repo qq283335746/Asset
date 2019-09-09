@@ -25,6 +25,7 @@ namespace TygaSoft.Model
             this.LastUpdatedDate = lastUpdatedDate;
         }
 
+        public Guid Id { get; set; }
         public Guid PandianId { get; set; }
         public Guid AssetId { get; set; }
         public string AppCode { get; set; }

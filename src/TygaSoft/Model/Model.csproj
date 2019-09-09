@@ -66,6 +66,7 @@
     <Compile Include="ComboboxInfo.cs" />
     <Compile Include="CustomerInfo.cs" />
     <Compile Include="DataGrid.cs" />
+    <Compile Include="Extensions\ModelExtension.cs" />
     <Compile Include="FeatureUserInfo.cs" />
     <Compile Include="KeyValueInfo.cs" />
     <Compile Include="LoginInfo.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="PandianInfo.cs" />
     <Compile Include="HtmlToPdfInfo.cs" />
     <Compile Include="ProductInfo.cs" />
+    <Compile Include="LiteQueryModel.cs" />
     <Compile Include="ProductRepairExtendInfo.cs" />
     <Compile Include="ProductRepairInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

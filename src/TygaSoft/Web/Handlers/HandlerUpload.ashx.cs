@@ -458,10 +458,13 @@ namespace TygaSoft.Web.Handlers
         {
             var sqlWhere = new StringBuilder(100);
             var parms = new ParamsHelper();
+            SqlParameter parm = null;
             var Profile = new CustomProfileCommon();
             if (!(HttpContext.Current.User.IsInRole("Administrators") && HttpContext.Current.User.IsInRole("Administrators")) && !string.IsNullOrEmpty(Profile.UserRule))
             {
                 sqlWhere.Append("and CHARINDEX(convert(varchar(36),p.DepmtId),'" + Profile.UserRule + "') > 0 ");
+                parm = new SqlParameter("@UserRule", Profile.UserRule);
+                parms.Add(parm);
             }
             var bll = new Product();
             var ds = bll.GetExportData(sqlWhere.ToString(), parms.ToArray());

@@ -316,6 +316,10 @@ namespace TygaSoft.WcfService
                         parms.Add(parm);
                     }
                     sqlWhere.AppendFormat("and CHARINDEX(convert(varchar(36),MgrDepmtId),'{0}') > 0 ", sUserRule);
+
+                    parm = new SqlParameter("@UserRule", SqlDbType.VarChar);
+                    parm.Value = sUserRule;
+                    parms.Add(parm);
                 }
 
                 #region 日期时间段
@@ -926,6 +930,7 @@ namespace TygaSoft.WcfService
 
                 var sqlWhere = new StringBuilder(300);
                 var parms = new ParamsHelper();
+                SqlParameter parm = null;
 
                 if (!(HttpContext.Current.User.IsInRole("Administrators") || HttpContext.Current.User.IsInRole("System")))
                 {
@@ -935,17 +940,20 @@ namespace TygaSoft.WcfService
                     if (userRules.Length > 0 && userRules[userRules.Length - 1] != depmtId.ToString())
                     {
                         sqlWhere.Append("and MgrDepmtId = @MgrDepmtId ");
-                        var parm = new SqlParameter("@MgrDepmtId", SqlDbType.UniqueIdentifier);
+                        parm = new SqlParameter("@MgrDepmtId", SqlDbType.UniqueIdentifier);
                         parm.Value = depmtId;
                         parms.Add(parm);
                     }
                     sqlWhere.AppendFormat("and CHARINDEX(convert(varchar(36),p.MgrDepmtId),'{0}') > 0 ", sUserRule);
+                    parm = new SqlParameter("@UserRule", SqlDbType.VarChar);
+                    parm.Value = sUserRule;
+                    parms.Add(parm);
                 }
 
                 if (!string.IsNullOrEmpty(model.Keyword))
                 {
                     sqlWhere.Append("and (p.Named like @Keyword or p.Coded like @Keyword) ");
-                    var parm = new SqlParameter("@Keyword", SqlDbType.NVarChar, 256);
+                    parm = new SqlParameter("@Keyword", SqlDbType.NVarChar, 256);
                     parm.Value = "%" + model.Keyword + "%";
                     parms.Add(parm);
                 }

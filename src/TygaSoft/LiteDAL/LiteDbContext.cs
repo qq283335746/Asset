@@ -25,6 +25,10 @@ namespace Yibi.LiteDAL
 
         public LiteCollection<ProductInfo> Products => Context.GetCollection<ProductInfo>("Products");
 
+        public LiteCollection<ProductRepairInfo> ProductRepairs => Context.GetCollection<ProductRepairInfo>("ProductRepairs");
+
+        public LiteCollection<StoragePlaceInfo> StoragePlaces => Context.GetCollection<StoragePlaceInfo>("StoragePlaces");
+
         public LiteCollection<CustomerInfo> Customers => Context.GetCollection<CustomerInfo>("Customers");
 
         public LiteCollection<DicsInfo> Dics => Context.GetCollection<DicsInfo>("Dics");
@@ -36,5 +40,7 @@ namespace Yibi.LiteDAL
         public LiteCollection<UserInOrgInfo> UserInOrg => Context.GetCollection<UserInOrgInfo>("UserInOrg");
 
         public LiteCollection<PandianInfo> Pandians => Context.GetCollection<PandianInfo>("Pandians");
+
+        public LiteCollection<PandianAssetInfo> PandianAssets => Context.GetCollection<PandianAssetInfo>("PandianAssets");
     }
 }
