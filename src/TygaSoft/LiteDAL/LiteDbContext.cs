@@ -32,5 +32,9 @@ namespace Yibi.LiteDAL
         public LiteCollection<FeatureUserInfo> FeatureUsers => Context.GetCollection<FeatureUserInfo>("FeatureUsers");
 
         public LiteCollection<OrgDepmtInfo> OrgDepmts => Context.GetCollection<OrgDepmtInfo>("OrgDepmts");
+
+        public LiteCollection<UserInOrgInfo> UserInOrg => Context.GetCollection<UserInOrgInfo>("UserInOrg");
+
+        public LiteCollection<PandianInfo> Pandians => Context.GetCollection<PandianInfo>("Pandians");
     }
 }

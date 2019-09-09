@@ -44,37 +44,45 @@ namespace Yibi.LiteDAL
 
         public IList<OrgDepmtInfo> GetList()
         {
-            throw new NotImplementedException();
+            return _db.OrgDepmts.FindAll().ToList();
         }
 
         public OrgDepmtInfo GetModel(string code, string name)
         {
-            throw new NotImplementedException();
+            if (!string.IsNullOrEmpty(code)) return _db.OrgDepmts.FindOne(m => m.Coded.Equals(code));
+            else return _db.OrgDepmts.FindOne(m => m.Named.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
 
         public OrgDepmtInfo GetModel(Guid id)
         {
-            throw new NotImplementedException();
+            return _db.OrgDepmts.FindById(id);
         }
 
         public int Insert(OrgDepmtInfo model)
         {
-            throw new NotImplementedException();
+            model.Id = Guid.NewGuid();
+            _db.OrgDepmts.Insert(model);
+
+            return 1;
         }
 
         public int InsertByOutput(OrgDepmtInfo model)
         {
-            throw new NotImplementedException();
+            _db.OrgDepmts.Insert(model);
+
+            return 1;
         }
 
         public bool IsExistChild(Guid Id)
         {
-            throw new NotImplementedException();
+            bool isExist = _db.OrgDepmts.Exists(m => m.ParentId.Equals(Id));
+            if (isExist) return true;
+            return _db.UserInOrg.Exists(m => m.OrgId.Equals(Id));
         }
 
         public bool IsExistCode(string code, Guid Id)
         {
-            throw new NotImplementedException();
+            return _db.OrgDepmts.Exists(m => Id.Equals(Guid.Empty) ? m.Coded.Equals(code) : m.Coded.Equals(code) && !m.Id.Equals(Id));
         }
 
         public int Update(OrgDepmtInfo model)
