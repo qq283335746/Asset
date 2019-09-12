@@ -110,14 +110,18 @@ namespace TygaSoft.BLL
 
         public IList<SiteMenusInfo> GetMenus(string appName)
         {
+            SqlParameter parm = null;
+
             string sqlWhere = string.Empty;
             if (!string.IsNullOrEmpty(appName))
             {
                 var appId = new Applications().GetAspnetAppId(appName);
                 sqlWhere = "and ApplicationId = '" + appId + "' ";
+
+                parm = new SqlParameter("@ApplicationId", appId);
             }
             
-            return dal.GetList(sqlWhere,null);
+            return dal.GetList(sqlWhere, parm);
         }
 
         #endregion

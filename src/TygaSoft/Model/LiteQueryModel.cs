@@ -7,6 +7,7 @@ namespace TygaSoft.Model
 {
     public class LiteQueryModel
     {
+        public Guid ApplicationId { get; set; }
         public Guid CategoryId { get; set; }
 
         public Guid MgrDepmtId { get; set; }

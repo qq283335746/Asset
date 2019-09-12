@@ -66,6 +66,7 @@
     <Compile Include="ProductRepair.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ConvertToModel.cs" />
+    <Compile Include="SiteMenus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
