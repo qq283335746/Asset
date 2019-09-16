@@ -44,5 +44,11 @@ namespace Yibi.LiteDAL
         public LiteCollection<PandianAssetInfo> PandianAssets => Context.GetCollection<PandianAssetInfo>("PandianAssets");
 
         public LiteCollection<SiteMenusInfo> SiteMenus => Context.GetCollection<SiteMenusInfo>("SiteMenus");
+
+        public LiteCollection<SiteMenusAccessInfo> SiteMenusAccess => Context.GetCollection<SiteMenusAccessInfo>("SiteMenusAccess");
+
+        public LiteCollection<SiteMultiInfo> SiteMultis => Context.GetCollection<SiteMultiInfo>("SiteMultis");
+
+        public LiteCollection<SitePictureInfo> SitePictures => Context.GetCollection<SitePictureInfo>("SitePictures");
     }
 }

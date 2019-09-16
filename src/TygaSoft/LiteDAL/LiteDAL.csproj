@@ -67,6 +67,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ConvertToModel.cs" />
     <Compile Include="SiteMenus.cs" />
+    <Compile Include="SiteMenusAccess.cs" />
+    <Compile Include="SiteMulti.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
