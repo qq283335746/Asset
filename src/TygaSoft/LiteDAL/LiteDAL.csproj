@@ -69,6 +69,11 @@
     <Compile Include="SiteMenus.cs" />
     <Compile Include="SiteMenusAccess.cs" />
     <Compile Include="SiteMulti.cs" />
+    <Compile Include="SitePicture.cs" />
+    <Compile Include="SiteRoles.cs" />
+    <Compile Include="SiteUsers.cs" />
+    <Compile Include="Staff.cs" />
+    <Compile Include="StoragePlace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

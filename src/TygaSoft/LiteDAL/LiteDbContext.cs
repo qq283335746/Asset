@@ -50,5 +50,9 @@ namespace Yibi.LiteDAL
         public LiteCollection<SiteMultiInfo> SiteMultis => Context.GetCollection<SiteMultiInfo>("SiteMultis");
 
         public LiteCollection<SitePictureInfo> SitePictures => Context.GetCollection<SitePictureInfo>("SitePictures");
+
+        public LiteCollection<SiteRolesInfo> SiteRoles => Context.GetCollection<SiteRolesInfo>("SiteRoles");
+
+        public LiteCollection<StaffInfo> Staffs => Context.GetCollection<StaffInfo>("Staffs");
     }
 }

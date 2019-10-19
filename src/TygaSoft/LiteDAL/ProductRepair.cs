@@ -124,7 +124,9 @@ namespace Yibi.LiteDAL
         {
             ProductInfo productInfo = _db.Products.FindById(productRepairInfo.ProductId);
 
-            return new ProductRepairExtendInfo { ProductInfo = new Product().AppendFullInfo(productInfo), ProductRepairInfo = productRepairInfo };
+            new Product().AppendFullInfo(productInfo);
+
+            return new ProductRepairExtendInfo { ProductInfo = productInfo, ProductRepairInfo = productRepairInfo };
         }
     }
 }
