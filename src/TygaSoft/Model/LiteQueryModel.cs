@@ -23,5 +23,7 @@ namespace TygaSoft.Model
         public string UserRule { get; set; }
 
         public string Keyword { get; set; }
+
+        public string SqlIn { get; set; }
     }
 }

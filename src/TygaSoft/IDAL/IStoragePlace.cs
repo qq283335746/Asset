@@ -16,7 +16,7 @@ namespace TygaSoft.IDAL
 
         DataSet GetExportData(string sqlWhere, params SqlParameter[] cmdParms);
 
-        bool IsExistCode(string code, Guid Id);
+        bool IsExistCode(string code, Guid id);
 
         StoragePlaceInfo GetModel(string code, string name);
 

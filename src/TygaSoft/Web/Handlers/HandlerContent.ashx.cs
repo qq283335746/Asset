@@ -186,7 +186,7 @@ namespace TygaSoft.Web.Handlers
             }
             else
             {
-                menusAccessInfo = new SiteMenusAccessInfo(appId,accessId, JsonConvert.SerializeObject(maitems), accessType);
+                menusAccessInfo = new SiteMenusAccessInfo(Guid.NewGuid(), appId,accessId, JsonConvert.SerializeObject(maitems), accessType);
                 maBll.Insert(menusAccessInfo);
             }
 

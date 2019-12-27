@@ -20,8 +20,10 @@ namespace TygaSoft.BLL
             {
                 sqlIn.AppendFormat("'{0}',", item);
             }
-            var sqlWhere = string.Format("and RoleName in ({0}) ", sqlIn.ToString().Trim(','));
-            return dal.GetAspnetList(appName,sqlWhere, null).Select(m => m.Id).ToArray();
+            var sSqlIn = sqlIn.ToString().Trim(',');
+            var sqlWhere = string.Format("and RoleName in ({0}) ", sSqlIn);
+            var parm = new SqlParameter("SqlIn", sSqlIn);
+            return dal.GetAspnetList(appName,sqlWhere, parm).Select(m => m.Id).ToArray();
         }
 
         public SiteRolesInfo GetAspnetModel(string appName, string name)

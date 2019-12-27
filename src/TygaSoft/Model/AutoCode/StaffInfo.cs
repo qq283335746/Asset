@@ -20,6 +20,8 @@ namespace TygaSoft.Model
             this.LastUpdatedDate = lastUpdatedDate;
         }
 
+        public Guid Id { get; set; }
+
         public Guid UserId { get; set; }
         public string AppCode { get; set; }
         public string Coded { get; set; }
